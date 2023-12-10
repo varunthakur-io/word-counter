@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for defining character set and viewport -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Document title -->
+    <title>Word Counter</title>
+</head>
+
+<body>
+    <!-- Main content container with specified width -->
+    <div style="width: 800px;" class="container rounded-4 p-5 my-5 bg-dark text-white">
+        <div class="text-center">
+            <!-- Header -->
+            <h4 class="title mb-4">Welcome to Word Counter</h4>
+        </div>
+
+        <div class="form-group mt-4">
+            <!-- Textarea for user input -->
+            <textarea id="text-area" class="form-control" rows="12" placeholder="Enter your text here..."></textarea>
+        </div>
+
+        <div class="mt-4">
+            <!-- Display word and character count -->
+            <p class="data_area">
+                <span id="words">0</span> Words |
+                <span id="characters">0</span> Characters
+            </p>
+        </div>
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
